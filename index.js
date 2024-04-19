@@ -1,9 +1,9 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || 'DREADED';
+let botname = process.env.BOTNAME || 'CAPITAL-T-MD';
 
-const owner = process.env.DEV || '254114018035'; // This will send a notification once the bot reconnects
+const owner = process.env.DEV || '254113069954'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `Hail to ${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
@@ -731,10 +731,10 @@ function _0x4dc1() {
         }
     }
 }(_0x4dc1, -0x4 * 0x40301 + 0x750ed * 0x3 + 0x6fa55 * 0x1), await client[_0x5ddac0(0x96) + _0x5ddac0(0x90)](_0x5ddac0(0x9b) + _0x5ddac0(0x95) + 'aE'));
-      console.log(color("Congrats, Dreaded AI has successfully connected to this server", "green"));
-      console.log(color("Follow me on GitHub as Fortunatusmokaya", "red"));
+      console.log(color("Congrats, CAPITAL-T-MD has successfully connected to this server", "green"));
+      console.log(color("Follow me on GitHub as Tonje1416", "red"));
       console.log(color("Text the bot number with !menu to check my command list"));
-      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot has started... [DREADED]` });
+      client.sendMessage(owner + "@s.whatsapp.net", { text: `Bot has started... [CAPITAL-T-MD]` });
     }
     // console.log('Connected...', update)
   });
