@@ -1,6 +1,6 @@
 {
-  "name": "DREADED BOT",
-  "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
+  "name": "CAPITAL-T-MD",
+  "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support by 𝐢𝐭'𝐬 𝐓𝐨𝐧𝐣𝐞.",
   "keywords": [
     "bot",
     "whatsapp",
@@ -20,7 +20,7 @@
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of dreaded bot Ex: . , / , # , & etc. Put any symbol",
+      "description": "Prefix of CAPITAL-T-MD Ex: . , / , # , & etc. Put any symbol",
       "required": true
 
     },
