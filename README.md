@@ -1,4 +1,4 @@
-
+⁷
 ## NOTE
 ***```CHECK OUT THE LATEST AND UPDATED VERSION```  [HERE](https://www.github.com/Tonje1416/CAPITAL-T-MD)***
 
@@ -26,7 +26,7 @@ Linking/Pairing:
 
 
 ## ` Pair On reptil`
-<h2 align="left">  <a href="https://replit.com/@botdreaded/Pairing-Dreaded"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<h2 align="left">  <a href="https://replit.com/@multonny748/PairingCAPITAL-T-MD"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
 
