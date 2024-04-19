@@ -80,7 +80,7 @@ Thanks to...
   
 | [![Fortunatus Mokaya](https://github.com/Fortunatusmokaya.png?lenght=50width=50)](https://github.com/Fortunatusmokaya)|
 |----|
-* [`Fortunatus mokaya`](https://github.com/Fortunatusmokaya) ***Author, Owner***
+* [`Tonney Kyambia`](https://github.com/Tonje1416) ***Author, Owner***
 
 * [`DikaArdnt`](https://github.com/DikaArdnt) ***For Hisoka Base***
 * [`Adiwajshing`](https://github.com/WhiskeySockets/Baileys) ***Baileys Library***
