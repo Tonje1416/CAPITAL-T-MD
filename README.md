@@ -1,6 +1,6 @@
 
 ## NOTE
-***```THIS REPO IS NOT RECEIVING MAJOR UPDATES ANYMORE, CHECK OUT THE LATEST AND UPDATED VERSION```  [HERE](https://www.github.com/Fortunatusmokaya/dreaded-md)***
+***```CHECK OUT THE LATEST AND UPDATED VERSION```  [HERE](https://www.github.com/Tonje1416/CAPITAL T MD)***
 
 
 
