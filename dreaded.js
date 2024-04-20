@@ -453,7 +453,7 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `╭════〘 CAPITAL-T-MD 〙═⊷❍
+let cap = `╭════〘 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 〙═⊷❍
 ┃╭─────────
 ┃✯│𝙐𝙨𝙚𝙧 : ${m.pushName}
 ┃✯│𝙋𝙞𝙣𝙜 :  ${dreadedspeed.toFixed(4)}ms
@@ -544,7 +544,7 @@ let cap = `╭════〘 CAPITAL-T-MD 〙═⊷❍
 ┃✯    ╰──────────❍
 ┃✯      ▒▓𝐌𝐚𝐝𝐞 𝐁𝐲 𝐢𝐭'𝐬 𝐓𝐨𝐧𝐣𝐞👽
 ┃✯      
-┃✯       CAPITAL-T-MD▪︎2024 ★
+┃✯       𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳▪︎2024 ★
 ┃✯       
 ┃✯
 ┃╰══════════════════⊷⏣⊷❍`;
@@ -561,7 +561,7 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d6dab955fbaa42fce2280.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bceeb4996e7abebeacd68.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -1841,13 +1841,13 @@ case "ping": case "speed": {
  break; 
   
  case "runtime": { 
-                 m.reply (`Bot active for ${runtime(process.uptime())}`) 
+                 m.reply (` 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 is active for ${runtime(process.uptime())}`) 
  } 
  break;
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/d6dab955fbaa42fce2280.jpg' }, caption: `Hello ${m.pushName}, CAPITAL-T-MD is active\n\nActive for:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\nYou can also interact with our online chatbot built with html and JavaScript with API integration.\n\nLink is given below:\n\nhttps://quantumlab.ru.eu.org/`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bceeb4996e7abebeacd68.jpg' }, caption: `𝙷𝚎𝚕𝚕𝚘, ${m.pushName}, 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳  𝚒𝚜 𝙰𝚌𝚝𝚒𝚟𝚎\n\n𝙰𝚌𝚝𝚒𝚟𝚎 𝚏𝚘𝚛:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\n𝚈𝚘𝚞 𝚌𝚊𝚗 𝚊𝚕𝚜𝚘 𝚓𝚒𝚘𝚗 𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 👇.\n\nLink is given below:\n\nhttps://chat.whatsapp.com/JuMJiuPAZEDIAKWKudhaMf`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -2041,7 +2041,7 @@ case "getvar":
      });  
      let baseUR = "/apps/" + appname;  
      let h9 = await heroku.get(baseUR + '/config-vars');  
-     let stoy = '*Below Are Heroku Variables For CAPITAL-T-MD:*\n\n';  
+     let stoy = '*Below Are Heroku Variables For 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 :*\n\n';  
      for ( vrt in h9) { // Added 'const' to declare 'vr' 
          stoy += vrt + '=' + h9[vrt] + '\n\n'; // Fixed variable name 'str' to 'sto' 
      }  
@@ -2099,7 +2099,7 @@ case "getvar":
         case "gpt": case "openai": 
           
 
-            if (!text) return reply("I need more text please. Make your query a bit longer.");
+            if (!text) return reply("𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 needs more text please. Make your query a bit longer.");
 
            const configuration = new Configuration({
 
