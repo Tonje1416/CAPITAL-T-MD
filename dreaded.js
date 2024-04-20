@@ -41,6 +41,7 @@ module.exports = dreaded = async (client, m, chatUpdate, store) => {
         : "";
     var budy = typeof m.text == "string" ? m.text : "";
    // leave the prefix string empty if you don't want the bot to use a prefix
+ const antiviewonce = process.env.ANTIVIEWONCE || 'TRUE';
 const mode = process.env.MODE || 'PUBLIC';
     const prefix = process.env.PREFIX || '.';
 const Heroku = require("heroku-client");  
@@ -431,6 +432,16 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
              }).then(() => client.groupParticipantsUpdate(m.chat, [ki], 'remove')); 
  client.sendMessage(m.chat, {text:`Removed:\n\n@${ki.split("@")[0]}, sending links is prohibited by Bot Owner!`, contextInfo:{mentionedJid:[ki]}}, {quoted:m}); 
        }   
+
+   
+    if (antiviewonce === 'TRUE' && m.mtype == 'viewOnceMessageV2') {
+            if (m.isBaileys && m.fromMe) return
+        let mokaya = { ...m }
+        let msg = mokaya.message?.viewOnceMessage?.message || mokaya.message?.viewOnceMessageV2?.message
+        delete msg[Object.keys(msg)[0]].viewOnce
+        mokaya.message = msg
+        await client.sendMessage(m.chat, { forward: mokaya }, { quoted: m })
+    }
   
   
   
@@ -525,7 +536,7 @@ let cap = `╭════〘 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 〙═�
 ┃✯|         • 𝐏𝐩2
 ┃✯|         • 𝐒𝐲𝐬𝐭𝐞𝐦
 ┃✯|         • 𝐂𝐫𝐞𝐝𝐢𝐭𝐬
-┃✯|         
+┃✯|         •retrieve
 ┃✯╰══════════════════⊷⏣        
 ┃✯╰┉┉┉┉┉┉┉𝘿𝙀𝙑𝙀𝙇𝙊𝙋𝙀𝙍┉┉┉┉⏣
 ┃✯|         • 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭
@@ -599,6 +610,11 @@ break;
 case "Pinkey": case "pinkey": case "pinky": 
  client.sendMessage(m.chat, { image : { url: 'https://telegra.ph/file/228fa3a4caf0db1738c2b.jpg' }, caption: `𝑻𝒉𝒊𝒔 𝒊𝒔 𝒕𝒉𝒆 𝒃𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍 𝒈𝒊𝒓𝒍𝒇𝒓𝒊𝒆𝒏𝒅 𝒐𝒇 𝒎𝒚 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓😍 𝑷𝒊𝒏𝒌𝒆𝒚 𝑺𝒉𝒆'𝒔 𝒔𝒐 𝒉𝒐𝒕❤️😍 𝒔𝒐𝒎𝒆𝒕𝒊𝒎𝒆𝒔 𝑰 𝒂𝒅𝒎𝒊𝒓𝒆 𝒉𝒆𝒓 𝒃𝒖𝒕 𝒎𝒚 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑺𝒉𝒖𝒔𝒉𝒆𝒔 𝒎𝒆 𝒖𝒑😢🫶` }, {quoted: m}); 
 
+break;
+
+case "retrieve":
+commands[command](client, m);
+        
 break;
         
 case "compile-py":
