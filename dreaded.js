@@ -613,7 +613,7 @@ case "Pinkey": case "pinkey": case "pinky":
 break;
 
 case "retrieve":
-commands[command](client, m);
+client.sendMessage(m.message)
         
 break;
         
