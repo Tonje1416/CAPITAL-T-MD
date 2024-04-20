@@ -571,8 +571,8 @@ if (menu === 'VIDEO') {
                 } else if (menu === 'TEXT') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
-} else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bceeb4996e7abebeacd68.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+} else if (menu === 'VIDEO') {
+client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/d1cce556fc2623ce71acb.mp4' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
@@ -1589,7 +1589,7 @@ break
   case 'play':
     case 'stream': {
         if (!text) {
-            reply('Provide a search term!\nE.g: play Alan walker alone')
+            reply('Provide a search term!\nE.g: play Alan walker faded')
             return;
         }
         try {
@@ -1863,7 +1863,7 @@ case "ping": case "speed": {
 
 case "alive": { 
   
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bceeb4996e7abebeacd68.jpg' }, caption: `𝙷𝚎𝚕𝚕𝚘, ${m.pushName}, 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳  𝚒𝚜 𝙰𝚌𝚝𝚒𝚟𝚎\n\n𝙰𝚌𝚝𝚒𝚟𝚎 𝚏𝚘𝚛:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\n𝚈𝚘𝚞 𝚌𝚊𝚗 𝚊𝚕𝚜𝚘 𝚓𝚒𝚘𝚗 𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 👇.\n\nLink is given below:\n\nhttps://chat.whatsapp.com/JuMJiuPAZEDIAKWKudhaMf`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+ client.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/d1cce556fc2623ce71acb.mp4' }, caption: `𝙷𝚎𝚕𝚕𝚘, ${m.pushName}, 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳  𝚒𝚜 𝙰𝚌𝚝𝚒𝚟𝚎\n\n𝙰𝚌𝚝𝚒𝚟𝚎 𝚏𝚘𝚛:  ${runtime(process.uptime())}\n\nType ${prefix}help.\n\n𝚈𝚘𝚞 𝚌𝚊𝚗 𝚊𝚕𝚜𝚘 𝚓𝚒𝚘𝚗 𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚏𝚘𝚛 𝚖𝚘𝚛𝚎 𝚞𝚙𝚍𝚊𝚝𝚎𝚜 👇.\n\nLink is given below:\n\nhttps://chat.whatsapp.com/JuMJiuPAZEDIAKWKudhaMf`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
