@@ -1995,7 +1995,7 @@ case "movie":
  break;
  
           case "script": case "repo": case "sc": 
- client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c75efecf7f0aef851fc02.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Fortunatusmokaya/DREADED-GPT-AI\n\nYou can link dreaded bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@botdreaded/Pairing-Dreaded\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact us for help!\n\nMade on Earth by Humans!` }, {quoted: m}); 
+ client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/bceeb4996e7abebeacd68.jpg' }, caption: `You can deploy this bot using the github link below!\nFork and give us a star ✨.\n\nhttps://github.com/Tonje1416/CAPITAL-T-MD\n\nYou can link 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 bot without scanning qr using replit in the link below:\n\nhttps://replit.com/@multonny748/PairingCAPITAL-T-MD\n\nFor deployment using heroku, fork the repo and use this link whilst replacing your-user-name and fork-name with actual details\nhttps://heroku.com/deploy?template=https://github.com/your-user-name/fork-name\n\nAre you having difficulties deploying this bot? Contact us for help!\n\n𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳\n\nMade on Earth by Humans!` }, {quoted: m}); 
   
  break; 
 
@@ -2009,7 +2009,7 @@ case "movie":
     if (/webp/.test(mime)) throw `Tag an image you want to be the bot's profile picture with ${prefix + command}`; 
     let media = await client.downloadAndSaveMediaMessage(quoted); 
     await client.updateProfilePicture(botNumber, { url: media }).catch((err) => fs.unlinkSync(media)); 
-    reply `Bot's profile picture has been successfully updated!`; 
+    reply `𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 profile picture has been successfully updated!`; 
     } 
     break;
 
