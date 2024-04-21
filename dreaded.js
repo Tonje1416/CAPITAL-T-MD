@@ -649,7 +649,6 @@ case 'url': case 'upload': {
                     reply(util.format(fta))
                 }
                 await fs.unlinkSync(fta2)
-     });
         
  break;
  
