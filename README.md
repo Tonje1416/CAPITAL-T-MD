@@ -1,5 +1,5 @@
 ⁷
-## NOTE
+## INTRO
 ***```CHECK OUT THE LATEST AND UPDATED VERSION```  [HERE](https://www.github.com/Tonje1416/CAPITAL-T-MD)***
 
 
@@ -99,5 +99,5 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 
 [MIT License](https://github.com/Fortunatusmokaya/DREADED-GPT-AI/blob/main/LICENSE)
 
-Copyright (c) 2023 Dreaded-GPT-AI
+Copyright (c) 2023 CAPITAL-T-MD
 
