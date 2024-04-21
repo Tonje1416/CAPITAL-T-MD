@@ -87,7 +87,7 @@ const maindev = '254114018035';
 const maindev2 = maindev.split(",");
 
     const packname = process.env.STICKER_PACKNAME || 'CAPITAL T';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '254113069954'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
