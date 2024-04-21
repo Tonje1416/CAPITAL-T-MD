@@ -542,7 +542,7 @@ let cap = `╭════〘 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 〙═�
 ┃✯|         • 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭
 ┃✯|         • 𝐀𝐝𝐦𝐢𝐧
 ┃✯|         • 𝐊𝐢𝐜𝐤𝐚𝐥𝐥
-┃✯|         • >
+┃✯|         • Remini
 ┃✯|         • =>
 ┃✯|         • 𝐁𝐨𝐭𝐩𝐩
 ┃✯|         • 𝐉𝐨𝐢𝐧
@@ -649,9 +649,23 @@ case 'url': case 'upload': {
                     reply(util.format(fta))
                 }
                 await fs.unlinkSync(fta2)
+
+   }
         
  break;
- 
+   
+	      case 'hd': case 'hdr': case 'remini': {
+			if (!quoted) return reply(`Where is the picture?`)
+			if (!/image/.test(mime)) return reply(`Send/Reply Photos With Captions ${prefix + command}`)
+			
+			const { remini } = require('./lib/remini')
+			let media = await quoted.download()
+			let proses = await remini(media, "enhance")
+			client.sendMessage(m.chat, { image: proses, caption: 'what the fuck'}, { quoted: fcontact})
+                               }
+
+ break;
+        
 case "ai":
 const _0x3cfb2e = _0x5913;
 (function (_0x573879, _0x548047) {
