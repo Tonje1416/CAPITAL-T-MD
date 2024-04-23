@@ -50,7 +50,7 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'CAPITAL-T-MD';
+const botname = process.env.BOTNAME || '𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳';
 const antibot = process.env.ANTIBOT || 'TRUE';
   
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
@@ -342,7 +342,22 @@ if (budy.startsWith('>')) {
    } catch (err) { 
  await reply(String(err)); 
    } 
+	}	 
+
+	   async function loadings () {
+var lod = [
+"⭓",
+"⬬",	
+	"𝙲𝚑𝚎𝚌𝚔𝚒𝚗𝚐 𝙲𝙰𝙿𝙸𝚃𝙰𝙻-𝚃-𝙼𝙳 𝚜𝚙𝚎𝚎𝚍••• "
+	
+]
+let { key } = await client.sendMessage(from, {text: '⭓𝐏𝐨𝐧𝐠'})
+
+for (let i = 0; i < lod.length; i++) {
+await client.sendMessage(from, {text: lod[i], edit: key });
+}
  } 
+
  
 
 
