@@ -119,9 +119,7 @@ function _0xfb25(_0x4763fd, _0xf70ff) {
         let _0x3e78ea = _0x6abf0e[_0x3f37d7];
         return _0x3e78ea;
     }, _0xfb25(_0x4763fd, _0xf70ff);
-	    await conn.readMessages([m.key])   
-        if (process.env.statusview && m.key.remoteJid === 'status@broadcast') 
-            await conn.readMessages([m.key])
+	
     }
 
 }
