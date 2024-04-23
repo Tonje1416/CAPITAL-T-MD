@@ -122,7 +122,6 @@ function _0xfb25(_0x4763fd, _0xf70ff) {
 	
     }
 
-}
 function _0x1492() {
     const _0x3ce3cb = [
         '4UUJcdc',
